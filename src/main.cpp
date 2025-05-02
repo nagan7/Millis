@@ -2,7 +2,7 @@
 
 int interval = 1000; // the time interval 
 unsigned long previous_millis = 0; // the last millis
-int Led_pin = 2;
+int Led_pin = 3; //change for the led pin
 boolean Led_state = false;
 
 void setup() {
